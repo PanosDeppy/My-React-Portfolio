@@ -1,13 +1,127 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  margin: 0;
 }
+
+/* style navbar start */
+
+.container-navbar {
+  background-color: #00afb9;
+}
+
+.navbar-brand {
+  color: #fffff0;
+}
+
+.nav-link {
+  color: #fffff0;
+}
+
+/* style navbar end */
+
+/* style about me start */
+
+.container-about-me {
+  color: #fffff0;
+  background-image: url("./images/bassguitars.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.my-image {
+  width: 25%;
+  height: 25%;
+  border-style: solid;
+  border-color: #00afb9;
+}
+
+/* style about me end */
+
+/* style my projects start */
+
+.my-projects {
+  background-color: #fffff0;
+}
+
+.title-myprojects {
+  color: #00afb9;
+}
+
+/* style my projects end */
+
+/* style project card start */
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.card-body {
+  color: #fffff0;
+  background-color: #00afb9;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.my-projects-card {
+  width: 20rem;
+  margin: 30px;
+}
+
+.git-hub-icon {
+  color: #fffff0;
+  font-size: 22px;
+}
+
+/* style project card end */
+
+/* style socials start */
+
+.designed {
+  color: #fffff0;
+}
+
+.container-socials {
+  background-color: #00afb9;
+  padding: 20px;
+}
+
+.contact-icon {
+  color: #fffff0;
+}
+
+/* style socials end */
+
+/* media queries start */
+
+/* small screens start */
+
+/* small screens end */
+
+/* medium screens start */
+
+@media screen and (max-width: 768px) {
+  .my-image {
+    width: 70%;
+  }
+
+  .navbar-toggler {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .navbar-brand {
+    margin: 0;
+  }
+}
+
+/* medium screens end */
+
+/* media queries end */
