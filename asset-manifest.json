@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/My-React-Portfolio/static/css/main.e616c067.css",
+    "main.js": "/My-React-Portfolio/static/js/main.39febcad.js",
+    "static/media/counter.jpg": "/My-React-Portfolio/static/media/counter.ffb86b80947999d75155.jpg",
+    "static/media/bassguitars.jpg": "/My-React-Portfolio/static/media/bassguitars.a8e9c530990dfe11eb67.jpg",
+    "static/media/wordcounter.jpg": "/My-React-Portfolio/static/media/wordcounter.766af15770be574e23ba.jpg",
+    "static/media/panos_image.jpg": "/My-React-Portfolio/static/media/panos_image.67ac9bbc29c792a84b00.jpg",
+    "static/media/PanagiotisIoannidisCV.pdf": "/My-React-Portfolio/static/media/PanagiotisIoannidisCV.32cb4ac20c3ec873f5d3.pdf",
+    "index.html": "/My-React-Portfolio/index.html",
+    "main.e616c067.css.map": "/My-React-Portfolio/static/css/main.e616c067.css.map",
+    "main.39febcad.js.map": "/My-React-Portfolio/static/js/main.39febcad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e616c067.css",
+    "static/js/main.39febcad.js"
+  ]
+}
