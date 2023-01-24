@@ -34,8 +34,8 @@ export const MyProjects = () => {
       className="my-projects pt-2 d-flex justify-content-center"
     >
       <div>
-        <div className="title-myprojects text-center fs-2 p-3">My Projects</div>
-        <div>
+        <div className="text-center fs-2 p-3">My Projects</div>
+        <div className="map-projects">
           {reactProjects.map((reactProject) => (
             <MyProjectsCard {...reactProject} key={reactProject.title} />
           ))}

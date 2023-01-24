@@ -26,7 +26,7 @@ body {
 
 .container-about-me {
   color: #fffff0;
-  background-image: url("./images/bassguitars.jpg");
+  background-image: url("./images/bass_guitars_two.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -38,16 +38,26 @@ body {
   border-color: #00afb9;
 }
 
+.hr {
+  border: 1.5px solid;
+  color: #fffff0;
+}
+
+.text-background {
+  background-color: #00afb9;
+}
+
 /* style about me end */
 
 /* style my projects start */
 
 .my-projects {
   background-color: #fffff0;
+  color: #00afb9;
 }
 
-.title-myprojects {
-  color: #00afb9;
+.map-projects {
+  display: flex;
 }
 
 /* style my projects end */
@@ -55,23 +65,23 @@ body {
 /* style project card start */
 
 .card-img-top {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+  width: 100% !important;
+  height: 40% !important;
   border-style: solid;
-  border-width: 6px 6px 6px 6px;
+  border-width: 6px;
   border-color: #00afb9;
 }
 
 .card-body {
   color: #fffff0;
   background-color: #00afb9;
+  height: 15rem;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;
   border-style: solid;
-  border-width: 6px 6px 6px 6px;
+  border-width: 6px;
   border-color: #00afb9;
 }
 
@@ -119,6 +129,10 @@ body {
 
   .navbar-toggler {
     padding: 0;
+  }
+
+  .map-projects {
+    display: block;
   }
 }
 

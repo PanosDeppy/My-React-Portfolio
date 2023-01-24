@@ -4,6 +4,9 @@ export const Socials = () => {
       <div className="designed fs-2 pt-3 d-flex justify-content-center">
         Contact me
       </div>
+
+      <hr className="hr" />
+
       <br></br>
       <div className="d-flex d-flex justify-content-evenly fs-4">
         <a
