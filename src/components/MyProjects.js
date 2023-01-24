@@ -12,6 +12,7 @@ const reactProjects = [
     title: "Counter App",
     description: "A simple counter app made with React",
     gitUrl: "https://github.com/PanosDeppy/React-CounterApp",
+    globalUrl: "https://panosdeppy.github.io/React-CounterApp/",
   },
 
   {
@@ -22,6 +23,7 @@ const reactProjects = [
     title: "Word-counter App",
     description: "A simple word counter app made with React",
     gitUrl: "https://github.com/PanosDeppy/word-counter-app",
+    globalUrl: "https://panosdeppy.github.io/word-counter-app/",
   },
 ];
 

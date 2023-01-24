@@ -1,6 +1,12 @@
 // main card component
 
-export const MyProjectsCard = ({ image, title, description, gitUrl }) => {
+export const MyProjectsCard = ({
+  image,
+  title,
+  description,
+  gitUrl,
+  globalUrl,
+}) => {
   return (
     <div className="my-projects-card">
       <img src={image.src} className="card-img-top" alt={image.alt} />
@@ -9,6 +15,9 @@ export const MyProjectsCard = ({ image, title, description, gitUrl }) => {
         <div className="card-description">{description}</div>
         <a href={gitUrl} className="btn">
           <i className="git-hub-icon fa-brands fa-github pt-3"></i>
+        </a>
+        <a href={globalUrl} className="btn">
+          <i className="git-hub-icon fa-solid fa-globe pt-3"></i>
         </a>
       </div>
     </div>

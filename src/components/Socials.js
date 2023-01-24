@@ -16,6 +16,15 @@ export const Socials = () => {
         </a>
 
         <a
+          href="https://github.com/PanosDeppy"
+          target="_blank"
+          rel="noreferrer"
+          className="contact-icon"
+        >
+          <i className="git-hub-icon fa-brands fa-github"></i>
+        </a>
+
+        <a
           href="https://mail.google.com/mail/"
           target="_blank"
           rel="noreferrer"
@@ -24,7 +33,12 @@ export const Socials = () => {
           <i className="fa-solid fa-envelope"></i>
         </a>
 
-        <a href="tel:+447386109901" className="contact-icon">
+        <a
+          href="tel:+447386109901"
+          target="_blank"
+          rel="noreferrer"
+          className="contact-icon"
+        >
           <i className="fa-solid fa-phone"></i>
         </a>
       </div>
