@@ -17,10 +17,20 @@ export const MyProjectsCard = ({
       <div className="card-body p-3 rounded-bottom">
         <div className="card-title fs-5 fw-semibold p-2">{title}</div>
         <div className="card-description">{description}</div>
-        <a href={gitUrl} className="contact-icon">
+        <a
+          href={gitUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="contact-icon"
+        >
           <i className="git-hub-icon fa-brands fa-github pt-2"></i>
         </a>
-        <a href={globalUrl} className="contact-icon">
+        <a
+          href={globalUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="contact-icon"
+        >
           <i className="git-hub-icon fa-solid fa-globe pt-2"></i>
         </a>
       </div>
