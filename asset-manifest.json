@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/My-React-Portfolio/static/css/main.aacae5d0.css",
-    "main.js": "/My-React-Portfolio/static/js/main.6ffc9d78.js",
+    "main.css": "/My-React-Portfolio/static/css/main.c07bf836.css",
+    "main.js": "/My-React-Portfolio/static/js/main.23ee821f.js",
     "static/media/counter.jpg": "/My-React-Portfolio/static/media/counter.ffb86b80947999d75155.jpg",
     "static/media/wordcounter.jpg": "/My-React-Portfolio/static/media/wordcounter.766af15770be574e23ba.jpg",
     "static/media/bass_guitars_two.jpg": "/My-React-Portfolio/static/media/bass_guitars_two.199556e36f7c49932d48.jpg",
     "static/media/panos_image.jpg": "/My-React-Portfolio/static/media/panos_image.67ac9bbc29c792a84b00.jpg",
     "static/media/PanagiotisIoannidisCV.pdf": "/My-React-Portfolio/static/media/PanagiotisIoannidisCV.6dca0fc6c44fda17502b.pdf",
     "index.html": "/My-React-Portfolio/index.html",
-    "main.aacae5d0.css.map": "/My-React-Portfolio/static/css/main.aacae5d0.css.map",
-    "main.6ffc9d78.js.map": "/My-React-Portfolio/static/js/main.6ffc9d78.js.map"
+    "main.c07bf836.css.map": "/My-React-Portfolio/static/css/main.c07bf836.css.map",
+    "main.23ee821f.js.map": "/My-React-Portfolio/static/js/main.23ee821f.js.map"
   },
   "entrypoints": [
-    "static/css/main.aacae5d0.css",
-    "static/js/main.6ffc9d78.js"
+    "static/css/main.c07bf836.css",
+    "static/js/main.23ee821f.js"
   ]
 }
