@@ -13,7 +13,7 @@ export const About = () => {
             />
           </div>
           <div className="about-me-info">
-            <div className="text-center fs-1"> Panagiotis Ioannidis</div>
+            <div className="name text-center fs-1"> Panagiotis Ioannidis</div>
             <div className="profession fs-4 text-center">
               Frontend Developer | Illustrator | Musician | Author | Couple
               Coach
@@ -23,11 +23,10 @@ export const About = () => {
 
             <div className="text-background rounded-4">
               <div className="description p-3 fs-5">
-                I am a creative individual seeking opportunities as a Frontend
-                Developer. I am passionate about continuous self-improvement,
-                gaining knowledge in various sectors, acquiring new skills,
-                expanding my horizons, and challenging myself to become better
-                at what I do every day.
+                I am a creative individual and passionate about continuous
+                self-improvement, gaining knowledge in various sectors,
+                acquiring new skills, expanding my horizons and challenging
+                myself to become better at what I do every day.
               </div>
 
               <div className="skills p-3 fs-5">
@@ -38,15 +37,20 @@ export const About = () => {
 
               <div className="background p-3 fs-5">
                 Besides coding, I have a strong background in healthcare and
-                music composition and I am a published author in the sector of
-                personal development and romantic relationships. In my free
-                time, I enjoy playing the bass guitar, illustrating, writing,
-                yoga, martial arts, travelling, and spending quality time with
-                my wife.
+                music composition. I am a published author in the sector of
+                personal development and romantic relationships with extended
+                studies in life and couple coaching as well as many other
+                personal development sciences.
+              </div>
+
+              <div className="background p-3 fs-5">
+                In my free time, I enjoy playing the bass guitar, illustration,
+                writing, yoga, martial arts, travelling, and spending quality
+                time with my wife.
               </div>
 
               <div className="p-3 fs-5">
-                Looking forward to working with you!
+                I am looking forward to working with you!
               </div>
             </div>
           </div>
