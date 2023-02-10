@@ -14,8 +14,9 @@ export const About = () => {
           </div>
           <div className="about-me-info">
             <div className="text-center fs-1"> Panagiotis Ioannidis</div>
-            <div className="fs-5 text-center ">
-              Associate Frontend Developer
+            <div className="profession fs-4 text-center">
+              Frontend Developer | Illustrator | Musician | Author | Couple
+              Coach
             </div>
 
             <hr className="hr" />
@@ -30,8 +31,8 @@ export const About = () => {
               </div>
 
               <div className="skills p-3 fs-5">
-                I will finish in February my Frontend development Bootcamp with
-                Purple Beard Training. I am confident in working with HTML, CSS,
+                I have completed my Frontend development Bootcamp with Purple
+                Beard Training. I am confident in working with HTML, CSS,
                 Bootstrap, Javascript, and React.
               </div>
 
