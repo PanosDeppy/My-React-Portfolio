@@ -1,9 +1,22 @@
 import { MyProjectsCard } from "./MyProjectsCard";
 
+import pokemon from "../images/2-pokemon.png";
 import counter from "../images/counter.jpg";
 import wordcounter from "../images/wordcounter.jpg";
 
 const reactProjects = [
+  {
+    image: {
+      src: pokemon,
+      alt: "poketeams",
+    },
+    title: "MyPokeTeams",
+    description:
+      "Pokemon game using PokeAPI where you can create multiple Pokemon teams",
+    gitUrl: "https://github.com/PanosDeppy/poke-teams-react",
+    globalUrl: "https://poke-teams-react-panosdeppy.vercel.app/",
+  },
+
   {
     image: {
       src: counter,
