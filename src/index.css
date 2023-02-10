@@ -52,6 +52,29 @@ body {
   background-color: #028090;
 }
 
+.name {
+  background-color: #028090;
+  color: #fffff0;
+  width: auto;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 4px;
+  padding: 2px 0;
+  margin: 0 0 8px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.profession {
+  background-color: #028090;
+  color: #fffff0;
+  width: auto;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 4px;
+  padding: 2px;
+}
+
 /* style about me end */
 
 /* style my projects start */
@@ -127,9 +150,33 @@ body {
 
 /* medium screens start */
 
+@media screen and (max-width: 1300px) {
+  .my-image {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .my-image {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .my-image {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .my-image {
+    width: 40%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .my-image {
-    width: 70%;
+    width: 50%;
   }
 
   .navbar-toggler {
@@ -144,6 +191,18 @@ body {
 @media screen and (max-width: 740px) {
   .navbar-brand {
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .my-image {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .my-image {
+    width: 70%;
   }
 }
 
