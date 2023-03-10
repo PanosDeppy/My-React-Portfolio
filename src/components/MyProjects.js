@@ -3,6 +3,7 @@ import { MyProjectsCard } from "./MyProjectsCard";
 import pokemon from "../images/2-pokemon.png";
 import counter from "../images/counter.jpg";
 import wordcounter from "../images/wordcounter.jpg";
+import villa from "../images/villa.png";
 
 const reactProjects = [
   {
@@ -15,6 +16,16 @@ const reactProjects = [
       "Pokemon game using PokeAPI where you can create multiple Pokemon teams",
     gitUrl: "https://github.com/PanosDeppy/poke-teams-react",
     globalUrl: "https://poke-teams-react-panosdeppy.vercel.app/",
+  },
+
+  {
+    image: {
+      src: villa,
+      alt: "Villa Palio Tsifliki",
+    },
+    title: "Villa Palio Tsifliki",
+    description: "Website for Villa Palio Tsifliki guest house in Greece",
+    globalUrl: "https://villa-palio-tsifliki.vercel.app/",
   },
 
   {

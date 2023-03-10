@@ -1,4 +1,4 @@
-import imageUrl from "../images/panos_image.jpg";
+import imageUrl from "../images/panos-i.jpg";
 
 export const About = () => {
   return (

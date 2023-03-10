@@ -12,9 +12,8 @@ body {
 }
 
 /* style navbar start */
-
 .container-navbar {
-  background-color: #028090;
+  background-color: #3a98b9;
 }
 
 .navbar-brand {
@@ -24,11 +23,9 @@ body {
 .nav-link {
   color: #fffff0;
 }
-
 /* style navbar end */
 
 /* style about me start */
-
 .container-about-me {
   color: #fffff0;
   background-image: url("./images/bass_guitars_two.jpg");
@@ -40,7 +37,7 @@ body {
   width: 25%;
   height: 25%;
   border-style: solid;
-  border-color: #028090;
+  border-color: #3a98b9;
 }
 
 .hr {
@@ -49,16 +46,12 @@ body {
 }
 
 .text-background {
-  background-color: #028090;
+  background-color: #3a98b9;
 }
 
 .name {
-  background-color: #028090;
   color: #fffff0;
   width: auto;
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 4px;
   padding: 2px 0;
   margin: 0 0 8px 0;
   display: flex;
@@ -66,43 +59,36 @@ body {
 }
 
 .profession {
-  background-color: #028090;
   color: #fffff0;
   width: auto;
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 4px;
   padding: 2px;
 }
-
 /* style about me end */
 
 /* style my projects start */
-
 .my-projects {
   background-color: #fffff0;
-  color: #028090;
+  color: #3a98b9;
 }
 
 .map-projects {
   display: flex;
+  text-align: center;
 }
-
 /* style my projects end */
 
 /* style project card start */
-
 .card-img-top {
   width: 100% !important;
   height: 40% !important;
   border-style: solid;
   border-width: 6px;
-  border-color: #028090;
+  border-color: #3a98b9;
 }
 
 .card-body {
   color: #fffff0;
-  background-color: #028090;
+  background-color: #3a98b9;
   height: 15rem;
   display: flex;
   flex-wrap: wrap;
@@ -110,7 +96,7 @@ body {
   justify-content: space-evenly;
   border-style: solid;
   border-width: 6px;
-  border-color: #028090;
+  border-color: #3a98b9;
 }
 
 .my-projects-card {
@@ -122,24 +108,22 @@ body {
   color: #fffff0;
   font-size: 22px;
 }
-
 /* style project card end */
 
 /* style socials start */
-
 .designed {
   color: #fffff0;
 }
 
 .container-socials {
-  background-color: #028090;
+  background-color: #3a98b9;
   padding: 20px;
+  text-align: center;
 }
 
 .contact-icon {
   color: #fffff0;
 }
-
 /* style socials end */
 
 /* media queries start */
