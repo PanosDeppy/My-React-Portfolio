@@ -23,23 +23,27 @@ export const About = () => {
 
             <div className="text-background rounded-4">
               <div className="description p-3 fs-5">
-                I am a creative individual and passionate about continuous
-                self-improvement, gaining knowledge in various sectors,
-                acquiring new skills, expanding my horizons and challenging
-                myself to become better at what I do every day.
+                Ambitious Associate Frontend Developer with hands-on experience
+                in HTML, CSS, GitHub, JavaScript, and React. I am passionate
+                about creating visually appealing and user-friendly web
+                applications. I am always seeking new opportunities to expand my
+                knowledge and skill set in various fields and embrace challenges
+                to grow. I believe that my diverse background, combined with my
+                strong front-end development skills, make me an asset to any
+                team.
               </div>
 
               <div className="skills p-3 fs-5">
-                I have completed my Frontend development Bootcamp with Purple
-                Beard Training. I am confident in working with HTML, CSS,
-                Bootstrap, Javascript, and React.
+                In addition to my technical skills, I have a diverse background
+                in healthcare, teaching, coaching, and music composition. I am a
+                self-starter with a constant drive to improve myself both
+                personally and professionally.
               </div>
 
               <div className="background p-3 fs-5">
-                Besides coding, I have a strong background in healthcare and
-                music composition. I am a published author in the sector of
-                personal development and romantic relationships with extended
-                studies in life and couple coaching as well as many other
+                I am also a published author in the sector of personal
+                development and romantic relationships with extended studies in
+                life, relationship and couple coaching as well as many other
                 personal development sciences.
               </div>
 
